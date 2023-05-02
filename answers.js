@@ -33,3 +33,9 @@ dart.push("Hawkins");
 
 wolfy.shift();
 wolfy.unshift("Gameboy");
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let ninja of ninjaTurtles) {
+  console.log(ninja.toUpperCase() + "!");
+}
