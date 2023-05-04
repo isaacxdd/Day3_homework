@@ -79,3 +79,16 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
  whereIsWaldo[2][2] = "No One";
  ///// 
  console.log(whereIsWaldo[3][1][1]);         
+
+ //////
+ const kittenTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+let meow = 0;
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    let randomIndex = Math.floor(Math.random() * kittenTalk.length);
+    console.log(kittenTalk[randomIndex]);
+  } else {
+    console.log("Love me, pet me! HSSSSSS!");
+  }
+}
