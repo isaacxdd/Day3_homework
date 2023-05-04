@@ -39,3 +39,31 @@ const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (let ninja of ninjaTurtles) {
   console.log(ninja.toUpperCase() + "!");
 }
+////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+console.log(favMovies.indexOf('Titanic'));
+///////////
+favMovies.sort();
+////////
+favMovies.pop();
+////////
+favMovies.push("Guardians of the Galaxy");
+/////////
+favMovies.reverse();
+///////////
+favMovies.shift();
+////////
+favMovies.unshift("The Lion King");
+//////
+const djangoIndex = favMovies.indexOf("Django Unchained");
+favMovies.splice(djangoIndex, 1, "Avatar");
+//////
+const middleIndex = Math.floor(favMovies.length / 2);
+const lastHalf = favMovies.slice(middleIndex);
+/////
+console.log(lastHalf);
+//////
+console.log(favMovies);
+//////////
+console.log(favMovies.indexOf("Fast and Furious"));
